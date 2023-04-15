@@ -49,3 +49,15 @@ press `r` key to remove an image along with its annotation if you feel the label
 
 # Part 2
 # Visual QC to select images that have the correct bounding box in YOLO format itself
+In the previous part the code to convert json format annotations into YOLO format. Here after that conversion, the images and labels created can be iterated to check its quality and remove if the bounding boxes are not rendered properly. In addition, the class name can be changed and saved to a new class name on the go.
+
+run "Visual_QC_YOLO_dataset_part_2.ipynb"
+
+Use spacebar to accept a label and any other button to move to the next. Finally the output will be displayed like this:
+
+```
+public_data_dummy/
+└── train/
+    ├── images/
+    ├── labels/
+```
