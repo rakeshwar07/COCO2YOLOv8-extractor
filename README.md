@@ -1,3 +1,4 @@
+# Part 1
 # yolo_coco_class_extractor
 
 - Download  **Coco Dataset** for custrom object detection re-training.
@@ -45,3 +46,6 @@ dwn_img_labels/
 ## Usage
 Run `visual_interpretor.py`
 press `r` key to remove an image along with its annotation if you feel the labeling is inaccurate else press spacebar or any key to review the next image.
+
+# Part 2
+# Visual QC to select images that have the correct bounding box in YOLO format itself
